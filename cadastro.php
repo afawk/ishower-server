@@ -76,7 +76,7 @@ else:
       </div>
       <div class="form-group">
         <label for="name_temp">Temperature</label>
-        <input type="text" class="form-control" id="name_temp" name="temperature" value="<?=$content['name'] ?? ''?>">
+        <input type="text" class="form-control" id="name_temp" name="temperature" value="<?=$content['temperature'] ?? ''?>">
       </div>
 
       <button type="submit" name="send" class="btn btn-primary">Enviar</button>
