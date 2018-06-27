@@ -22,8 +22,8 @@ $items = $statement->fetchAll();
             <td scope="row"><?=$item['id']?></td>
             <td><?=$item['name']?></td>
             <td><?=$item['temperature']?>ºC</td>
-            <td><a href="./cadastro.php?profile_id=<?=$item['id']?>">Editar</a></td>
-            <td><a href="./cadastro.php?profile_id=<?=$item['id']?>&act=dl">Excluir</a></td>
+            <td><a href="./?page=cadastro&profile_id=<?=$item['id']?>">Editar</a></td>
+            <td><a href="./?page=cadastro&profile_id=<?=$item['id']?>&act=dl">Excluir</a></td>
         </tr>
         <?php endforeach; ?>
     </tbody>
